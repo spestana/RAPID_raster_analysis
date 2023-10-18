@@ -17,11 +17,20 @@ From here, I moved the snow depth rasters into ArcGIS Pro to take a closer look 
 3_rapid_model_plots.ipynb 
 * recreate some previous raster analysis plots 
 
-4_rapid_compare_canopy.ipynb
+4_rapid_compare_canopy_v1.ipynb
 * compare chm and chmws from before and after treatments 
 * also, compare the dce from my methods and Giulia's model methods for rapid data 
+* includes a lot of aspect calculations before moving to dah
 
+5_rapid_compare_canopy_v2.ipynb
+* cleans up and adds to analysis in notebook 4 
+* includes some aspect calculations, but also all the baf lidar change calculations 
+* also includes the resampling to 20,000 points 
 
-Then move to a plotting script to continue analysis on this dataset without needing to load rasters. 
+6_rapid_compare_canopy_v3.ipynb 
+* cleans up and adds to analysis in notebook 5 
+* removes the aspect calculations, keeps some of the baf calculations, but removes the resampling
+* adds a lot more figures of the lidar data 
+* and, total calculations of SWE
 
 
